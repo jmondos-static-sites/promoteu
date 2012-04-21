@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+<title>PromoteU :: Payment: Sample Company</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body style="background-color: #000000">
+
+<h1 onclick="location.href='index.html';" style="cursor: pointer;">
+&nbsp;</h1>
+<ul id="navigation">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="products.html">Products</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a class="active" href="payment_lanyard.html">Buy Now</a></li>
+
+</ul>
+
+
+<div id="content">
+
+<div class="block">
+<h2 class="left"><form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="paypal">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="finance@letspromoteu.com">
+<input type="hidden" name="item_name" value="2GB USB Lanyard">
+<input type="hidden" name="item_number" value="1">
+<input type="hidden" name="amount" value="9.52">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="shipping" value="">
+<input type="hidden" name="shipping2" value="">
+<input type="hidden" name="handling_cart" value="">
+<input type="hidden" name="bn"  value="ButtonFactory.PayPal.001">
+<input type="image" name="add" src="http://www.powersellersunite.com/buttonfactory/x-click-but01.gif">
+<input type="hidden" name="custom" value="B01.129.2402" />
+<input type="hidden" name="return" value="http://letspromoteu.com/thankyou.html" />
+</form></h2>
+<p class="right">Welcome, PromoteU Customer!</p>
+<p class="right">Please click on the button to the left to enter your credit card information to order a USB Lanyard. We will email you to confirm receiving the payment. All credit card orders are processed through PayPal.</p>
+<p class="right">Thank you.</p>
+<p class="right"><img src="images/lanyard.jpg" /></p>
+<div class="clear"></div>
+</div>
+
+
+
+</div>
+<div id="footer"></div>
+</body>
+</html>

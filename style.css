@@ -1,0 +1,127 @@
+﻿
+* {
+font-style: normal;
+font-weight: normal;
+margin:0;
+padding:0;
+font-size:1em;
+
+}
+
+body {
+width:747px;
+font-family:"Lucida Grande", "Arial", Sans-serif;
+margin:30px auto 50px auto;
+}
+
+
+
+/* ----- HEADER ----- */
+
+
+
+h1 {
+width:350px;
+height:270px;
+margin:auto;
+background: url(high-res-logo.png);
+}
+
+
+
+/* ----- NAVIGATION ----- */
+
+
+
+#navigation {
+height:44px;
+background-color:#333333;
+background: url(nav-top.png);
+margin-top:30px;
+padding: 11px 0 0 10px;
+}
+
+#navigation li {
+display: inline;
+padding: 10px;
+}
+#navigation li a.active {
+text-decoration:none;
+border-bottom: 7px solid #ddd;
+}
+#navigation li a {
+text-decoration:none;
+color: #333;
+
+}
+#navigation li a:hover {
+border-bottom: 7px solid #ddd;
+}
+
+/* ----- MAIN CONTENT ----- */
+
+h2 {
+color: #333333;
+text-transform:uppercase;
+}
+
+#content { 
+height:auto !important; /* for modern browsers */
+height:450px; /* for IE5.x and IE6 */
+min-height: 250px;
+background: url(background.png) repeat-y;
+}
+
+.block {
+line-height: 1.5em;
+font-size: .8em;
+display:block;
+
+
+}
+
+.left {
+
+text-align:right;
+width:132px;
+float: left;
+margin-bottom:15px;
+margin-left: 5px;
+display:block;
+
+}
+
+.right {
+float:right;
+width:577px;
+margin-right:10px;
+margin-top:.2em;
+margin-bottom:15px;
+display:block;
+}
+
+h2.right {
+margin-bottom:0;
+}
+
+.block .clear {
+clear:both;
+display:block;
+}
+
+.thumb {
+margin-top:10px;
+margin-left:10px;
+}
+
+
+/* ----- FOOTER ----- */
+
+
+
+#footer { 
+width:747px;
+height:21px;
+background: url(nav-bott.png) no-repeat;
+float:clear;
+}
